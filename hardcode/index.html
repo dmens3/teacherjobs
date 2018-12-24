@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Learn.iT | Home</title>
+  </head>
+  <body>
+    <header>
+      <nav class="blue darken-3">
+        <div class="container">
+          <div class="nav-wrappper">
+            <a href="#" class="brand-logo">Learn.iT</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="classes.html">Classes</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="classes.html">Classes</a></li>
+      </ul>
+    </header>
+    <div id="index-banner" class="parallax-container">
+       <div class="section no-pad-bot">
+         <div class="container">
+           <h1 class="header center white-text text-darken-2">Learning, made simple.</h1>
+           <div class="row center">
+             <h5 class="header col s12 white-text light">Take language, computer science or math lessons in a simple, effective environment.</h5>
+           </div>
+           <div class="row center">
+             <a href="classes.html" class="btn-large waves-effect waves blue hide-on-small-only">Get Started</a>
+           </div>
+         </div>
+       </div>
+       <div class="parallax"><img src="http://www.anje.pt/system/media/images/3040/content_with/capa_elearning.png?1531999019"></div>
+     </div>
+     <div class="container">
+       <div class="section">
+         <div class="row">
+           <div class="col s12 m4">
+             <div class="icon-block">
+               <h1 class="center blue-text text-darken-2"><i class="medium material-icons">code</i></h1>
+               <h4 class="center">Learn to code</h4>
+               <p class="light flow-text">Take classes from our experts to learn anything you need, from web design to game programming and software engineering.</p>
+             </div>
+           </div>
+           <div class="col s12 m4">
+             <div class="icon-block">
+               <h1 class="center blue-text text-darken-2"><i class="medium material-icons">business_center</i></h1>
+               <h4 class="center">Learn business</h4>
+               <p class="light flow-text">Take classes from the masters of business management and learn how to take your idea into a profitable and respectful enterprise.</p>
+             </div>
+           </div>
+           <div class="col s12 m4">
+             <div class="icon-block">
+               <h1 class="center blue-text text-darken-2"><i class="medium material-icons">language</i></h1>
+               <h4 class="center">Learn languages</h4>
+               <p class="light flow-text">Learn English, Portuguese and many other languages through our classes, making yourself a valuable asset that many employers will want.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container" id="bottomparallax">
+          <h1 class="header center white-text text-darken-2">We focus on you.</h1>
+          <div class="row center">
+            <h5 class="header col s12 white-text light">Our design makes it so the experience is completely focused on you and on what you need.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="img/business.jpg">
+      </div>
+    </div>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h1 class="blue-text text-darken-2"><i class="material-icons medium">contacts</i></h1>
+            <h3>Contact us</h3>
+            <p class="light left-align flow-text">If you have any questions about the services we provide, contact us.<br> Email: <small>home@learnify.com</small><br> You can get more information from our social media:<br>Twitter: <small>@learnifyonline</small>;<br>Instagram <small>@learnifypt</small>;<br>Facebook: <small>"Learnify Portugal"</small>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <p class="light right">&copy;Learn.iT Portugal, 2018</p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+      (function($){
+        $(function(){
+
+          $('.sidenav').sidenav();
+          $('.parallax').parallax();
+
+        }); // end of document ready
+      })(jQuery); // end of jQuery name space
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
+  </body>
+</html>

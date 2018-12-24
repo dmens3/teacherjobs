@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
+  <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Learn.iT | Classes</title>
+</head>
+<body>
+  <header>
+    <nav class="blue darken-3">
+      <div class="container">
+        <div class="nav-wrappper">
+          <a href="index.html" class="brand-logo">Learn.iT</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="classes.html">Classes</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Contacts</a></li>
+      <li><a href="classes.html">Classes</a></li>
+    </ul>
+    </header>
+    <div class="container">
+        <p class="flow-text center">Add a class</p>
+        <div class="row">
+            <form class="col s12">
+                <div class="input-field col s8">
+                    <i class="material-icons prefix">lightbulb_outline</i>
+                    <input id="title" type="text" required>
+                    <label for="title">Title</label>
+                </div>
+                <div class="input-field col s4">
+                    <i class="material-icons prefix">attach_money</i>
+                    <input type="text" id="price" required>
+                    <label for="price">Price</label>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <form class="col s12">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">description</i>
+                    <textarea class="materialize-textarea" id="description"></textarea>
+                    <label for="description">Description (50-200 words)</label>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <form class="col s12">
+                <div class="input-field col s4">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="name" type="text" required>
+                    <label for="name">Your first and last name</label>
+                </div>
+                <div class="input-field col s8">
+                    <i class="material-icons prefix">email</i>
+                    <input id="contactemail" type="text" required>
+                    <label for="contactemail">Your email adress</label>
+                </div>              
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+        <p class="light right">&copy;Learn.iT Portugal, 2018</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
